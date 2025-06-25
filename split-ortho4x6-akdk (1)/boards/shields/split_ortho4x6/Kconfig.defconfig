@@ -1,0 +1,14 @@
+
+if SHIELD_SPLIT_ORTHO4X6_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "split_ortho4x6"
+
+endif
+
+if SHIELD_SPLIT_ORTHO4X6_LEFT || SHIELD_SPLIT_ORTHO4X6_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

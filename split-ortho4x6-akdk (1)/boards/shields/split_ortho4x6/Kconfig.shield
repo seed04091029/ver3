@@ -1,0 +1,4 @@
+config SHIELD_SPLIT_ORTHO4X6_LEFT
+    def_bool $(shields_list_contains,split_ortho4x6_left)
+config SHIELD_SPLIT_ORTHO4X6_RIGHT
+    def_bool $(shields_list_contains,split_ortho4x6_right)
